@@ -148,11 +148,11 @@
     </a>
 
     <nav class="main-nav" id="mainNav" aria-label="Navigation principale">
-      <a href="#expertise">Expertise</a>
-      <a href="#realisations">Réalisations</a>
-      <a href="#apropos">À propos</a>
-      <a href="#avis">Avis clients</a>
-      <a href="#contact">Contact</a>
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projets</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
     </nav>
 
     <div class="header-actions">
@@ -160,7 +160,7 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         <span>+229 01 90 21 28 76</span>
       </a>
-      <a href="#devis" class="btn btn-primary btn-sm">Demander un Devis</a>
+      <a href="contact.html" class="btn btn-primary btn-sm">Demander un Devis</a>
     </div>
 
     <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
@@ -174,6 +174,10 @@
 <!-- ============================= HERO ============================= -->
 <section class="hero" id="accueil">
   <div class="hero-bg" aria-hidden="true">
+    <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Votre navigateur ne prend pas en charge la vidéo de fond.
+    </video>
     <div class="blueprint-grid"></div>
     <div class="hero-glow"></div>
   </div>
@@ -201,11 +205,11 @@
     </p>
 
     <div class="hero-actions" data-reveal>
-      <a href="#devis" class="btn btn-primary btn-lg">
+      <a href="contact.html" class="btn btn-primary btn-lg">
         Demander un Devis BTP
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
       </a>
-      <a href="#realisations" class="btn btn-ghost btn-lg">
+      <a href="projects.html" class="btn btn-ghost btn-lg">
         Voir nos Réalisations
       </a>
     </div>
@@ -230,278 +234,47 @@
     </div>
   </div>
 
-  <a href="#expertise" class="scroll-cue" aria-label="Défiler vers le bas">
+  <a href="#explore" class="scroll-cue" aria-label="Explorer les pages">
     <span class="scroll-cue-line"></span>
-    SCROLL
+    EXPLORE
   </a>
 </section>
 
-<!-- ============================= EXPERTISE ============================= -->
-<section class="expertise" id="expertise">
+<section class="landing-links" id="explore">
   <div class="container">
     <div class="section-head">
-      <p class="eyebrow eyebrow-dark" data-reveal><span class="eyebrow-dot"></span>Notre savoir-faire</p>
-      <h2 data-reveal>Cinq métiers, <span class="text-gold">une seule exigence</span></h2>
-      <p class="section-lede" data-reveal>De l&rsquo;étude technique à la livraison, EDG BTP &amp; SERVICES maîtrise l&rsquo;ensemble de la chaîne de construction.</p>
+      <p class="eyebrow eyebrow-dark" data-reveal><span class="eyebrow-dot"></span>Page d'accueil</p>
+      <h2 data-reveal>Un site plus simple, <span class="text-gold">plus vivant</span></h2>
+      <p class="section-lede" data-reveal>Choisissez votre destination : services, projets, histoire ou contact rapide.</p>
     </div>
-
-    <div class="expertise-grid">
-      <article class="expertise-card" data-reveal>
-        <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-        <div class="expertise-icon">
-          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 12h.01M15 12h.01M9 9h.01M15 9h.01"/></svg>
-        </div>
-        <span class="expertise-code">BTP-01</span>
-        <h3>Gros Œuvre &amp; Béton Armé</h3>
-        <p>Fondations, structures porteuses, dalles et voiles en béton armé, exécutés selon les normes CEBTP et les plans d&rsquo;ingénieur.</p>
+    <div class="landing-grid">
+      <article class="landing-card" data-reveal>
+        <h3>Services</h3>
+        <p>Accédez à une page dédiée pour comprendre nos offres BTP et trouver le service qui correspond à votre chantier.</p>
+        <a href="services.html" class="btn btn-outline btn-sm">Voir Services</a>
       </article>
-
-      <article class="expertise-card" data-reveal>
-        <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-        <div class="expertise-icon">
-          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7l9-4 9 4M4 10v10h16V10M9 21v-6h6v6M12 3v7"/></svg>
-        </div>
-        <span class="expertise-code">BTP-02</span>
-        <h3>Réhabilitation &amp; Rénovation</h3>
-        <p>Remise à niveau structurelle, extensions et rénovations complexes de bâtiments résidentiels, tertiaires et administratifs.</p>
+      <article class="landing-card" data-reveal>
+        <h3>Projets</h3>
+        <p>Parcourez nos réalisations avec images, statuts et description des chantiers livrés ou en cours.</p>
+        <a href="projects.html" class="btn btn-outline btn-sm">Voir Projets</a>
       </article>
-
-      <article class="expertise-card" data-reveal>
-        <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-        <div class="expertise-icon">
-          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V10l8-6 8 6v11M4 21h16M8 21v-7h8v7M4 10l8 4 8-4"/></svg>
-        </div>
-        <span class="expertise-code">BTP-03</span>
-        <h3>Charpente Métallique</h3>
-        <p>Conception et montage de charpentes et hangars métalliques industriels, calculés pour la résilience climatique locale.</p>
+      <article class="landing-card" data-reveal>
+        <h3>À propos</h3>
+        <p>Découvrez l'équipe, notre bureau d'études intégré et notre approche rigoureuse du chantier.</p>
+        <a href="about.html" class="btn btn-outline btn-sm">À propos</a>
       </article>
-
-      <article class="expertise-card" data-reveal>
-        <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-        <div class="expertise-icon">
-          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3h18v18H3zM3 9h18M9 21V9"/></svg>
-        </div>
-        <span class="expertise-code">BTP-04</span>
-        <h3>Plans Architecturaux &amp; Études</h3>
-        <p>Conception architecturale, plans d&rsquo;exécution et études de structure pour sécuriser chaque projet avant le premier coup de pioche.</p>
-      </article>
-
-      <article class="expertise-card" data-reveal>
-        <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-        <div class="expertise-icon">
-          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 17l4-6 4 3 4-8 6 11M3 21h18"/></svg>
-        </div>
-        <span class="expertise-code">BTP-05</span>
-        <h3>Infrastructures Publiques &amp; VRD</h3>
-        <p>Voirie, réseaux divers, drainage et ouvrages d&rsquo;assainissement pour les marchés publics et privés.</p>
-      </article>
-
-      <article class="expertise-card expertise-card--cta" data-reveal>
-        <h3>Un projet en tête ?</h3>
-        <p>Nos ingénieurs étudient votre cahier des charges et reviennent avec un chiffrage clair.</p>
-        <a href="#devis" class="btn btn-primary btn-sm">Démarrer un diagnostic</a>
+      <article class="landing-card" data-reveal>
+        <h3>Contact</h3>
+        <p>Demandez un devis ou envoyez-nous un message directement, depuis une page dédiée au contact.</p>
+        <a href="contact.html" class="btn btn-outline btn-sm">Contact</a>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============================= PORTFOLIO ============================= -->
-<section class="portfolio" id="realisations">
-  <div class="container">
-    <div class="section-head">
-      <p class="eyebrow" data-reveal><span class="eyebrow-dot"></span>Preuves de terrain</p>
-      <h2 data-reveal>Chantiers réels <span class="text-gold">au Bénin</span></h2>
-      <p class="section-lede" data-reveal>Un aperçu des ouvrages actuellement en cours ou livrés par nos équipes, du gros œuvre à l&rsquo;infrastructure publique.</p>
-    </div>
+</main>
 
-    <div class="portfolio-filters" role="tablist" aria-label="Filtrer les réalisations" data-reveal>
-      <button class="filter-chip is-active" data-filter="all" role="tab" aria-selected="true">Tous</button>
-      <button class="filter-chip" data-filter="gros-oeuvre" role="tab" aria-selected="false">Gros Œuvre</button>
-      <button class="filter-chip" data-filter="renovation" role="tab" aria-selected="false">Rénovation</button>
-      <button class="filter-chip" data-filter="charpente" role="tab" aria-selected="false">Charpente Métallique</button>
-      <button class="filter-chip" data-filter="infrastructure" role="tab" aria-selected="false">Infrastructure Publique</button>
-    </div>
-
-    <div class="portfolio-grid" id="portfolioGrid">
-
-      <article class="project-card" data-category="gros-oeuvre" data-reveal>
-        <div class="project-media project-media--01">
-          <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-          <span class="project-tag">Gros Œuvre</span>
-          <span class="project-code">CHANTIER N°014</span>
-        </div>
-        <div class="project-body">
-          <h3>Résidence R+2 — Godomey</h3>
-          <p class="project-loc">📍 Abomey-Calavi, Bénin</p>
-          <p>Structure complète en béton armé, fondations spéciales sur sol argileux, livraison clé en main.</p>
-          <div class="progress-row">
-            <div class="progress-bar"><span style="width:100%" data-progress="100"></span></div>
-            <span class="progress-pct">100%</span>
-          </div>
-          <span class="status-pill status-done">Livré</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-category="renovation" data-reveal>
-        <div class="project-media project-media--02">
-          <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-          <span class="project-tag">Rénovation Complexe</span>
-          <span class="project-code">CHANTIER N°021</span>
-        </div>
-        <div class="project-body">
-          <h3>Réhabilitation Siège Administratif</h3>
-          <p class="project-loc">📍 Cotonou, Bénin</p>
-          <p>Reprise en sous-œuvre, renforcement structurel et remise aux normes électriques d&rsquo;un immeuble de bureaux.</p>
-          <div class="progress-row">
-            <div class="progress-bar"><span style="width:85%" data-progress="85"></span></div>
-            <span class="progress-pct">85%</span>
-          </div>
-          <span class="status-pill status-progress">En cours</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-category="charpente" data-reveal>
-        <div class="project-media project-media--03">
-          <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-          <span class="project-tag">Charpente Métallique</span>
-          <span class="project-code">CHANTIER N°009</span>
-        </div>
-        <div class="project-body">
-          <h3>Hangar Industriel</h3>
-          <p class="project-loc">📍 Zone Industrielle, Calavi</p>
-          <p>Charpente métallique de grande portée pour entrepôt logistique, bardage et couverture isolée.</p>
-          <div class="progress-row">
-            <div class="progress-bar"><span style="width:100%" data-progress="100"></span></div>
-            <span class="progress-pct">100%</span>
-          </div>
-          <span class="status-pill status-done">Livré</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-category="infrastructure" data-reveal>
-        <div class="project-media project-media--04">
-          <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-          <span class="project-tag">Infrastructure Publique</span>
-          <span class="project-code">CHANTIER N°027</span>
-        </div>
-        <div class="project-body">
-          <h3>Voirie &amp; Drainage</h3>
-          <p class="project-loc">📍 Abomey-Calavi, Bénin</p>
-          <p>Réalisation de voirie bitumée et de réseaux d&rsquo;assainissement pluvial pour un lotissement communal.</p>
-          <div class="progress-row">
-            <div class="progress-bar"><span style="width:60%" data-progress="60"></span></div>
-            <span class="progress-pct">60%</span>
-          </div>
-          <span class="status-pill status-progress">En cours</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-category="gros-oeuvre" data-reveal>
-        <div class="project-media project-media--05">
-          <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-          <span class="project-tag">Plans + Gros Œuvre</span>
-          <span class="project-code">CHANTIER N°033</span>
-        </div>
-        <div class="project-body">
-          <h3>Villa Duplex Standing</h3>
-          <p class="project-loc">📍 Akpakpa, Cotonou</p>
-          <p>Étude architecturale sur-mesure et exécution du gros œuvre d&rsquo;une villa duplex haut de gamme.</p>
-          <div class="progress-row">
-            <div class="progress-bar"><span style="width:100%" data-progress="100"></span></div>
-            <span class="progress-pct">100%</span>
-          </div>
-          <span class="status-pill status-done">Livré</span>
-        </div>
-      </article>
-
-      <article class="project-card" data-category="infrastructure" data-reveal>
-        <div class="project-media project-media--06">
-          <span class="card-corner tl" aria-hidden="true"></span><span class="card-corner br" aria-hidden="true"></span>
-          <span class="project-tag">Bâtiment Public</span>
-          <span class="project-code">CHANTIER N°041</span>
-        </div>
-        <div class="project-body">
-          <h3>Extension École Primaire</h3>
-          <p class="project-loc">📍 Zè, Département de l&rsquo;Atlantique</p>
-          <p>Construction de deux modules de classes supplémentaires et d&rsquo;un bloc sanitaire dans le cadre d&rsquo;un marché public.</p>
-          <div class="progress-row">
-            <div class="progress-bar"><span style="width:40%" data-progress="40"></span></div>
-            <span class="progress-pct">40%</span>
-          </div>
-          <span class="status-pill status-progress">En cours</span>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<!-- ============================= STATS BAND ============================= -->
-<section class="stats-band">
-  <div class="container stats-band-inner">
-    <div class="band-stat" data-reveal>
-      <span class="band-num" data-count="12">0</span><span class="stat-suffix">ans</span>
-      <p>d&rsquo;expertise BTP au Bénin</p>
-    </div>
-    <div class="band-stat" data-reveal>
-      <span class="band-num" data-count="80">0</span><span class="stat-suffix">+</span>
-      <p>chantiers menés à terme</p>
-    </div>
-    <div class="band-stat" data-reveal>
-      <span class="band-num" data-count="24">0</span><span class="stat-suffix">/7</span>
-      <p>ingénieur de permanence</p>
-    </div>
-    <div class="band-stat" data-reveal>
-      <span class="band-num" data-count="4">0</span><span class="stat-suffix">.9★</span>
-      <p>note moyenne clients</p>
-    </div>
-  </div>
-</section>
-
-<!-- ============================= À PROPOS ============================= -->
-<section class="about" id="apropos">
-  <div class="container about-grid">
-    <div class="about-visual" data-reveal>
-      <span class="corner tl" aria-hidden="true"></span><span class="corner tr" aria-hidden="true"></span>
-      <span class="corner bl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
-      <svg viewBox="0 0 400 460" class="blueprint-illustration" role="img" aria-label="Schéma technique d&rsquo;un bâtiment en coupe">
-        <defs><pattern id="gridpat" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="rgba(212,169,74,0.12)" stroke-width="1"/></pattern></defs>
-        <rect width="400" height="460" fill="url(#gridpat)"/>
-        <g fill="none" stroke="#D4A94A" stroke-width="1.4">
-          <rect x="70" y="140" width="260" height="270"/>
-          <line x1="70" y1="200" x2="330" y2="200"/>
-          <line x1="70" y1="260" x2="330" y2="260"/>
-          <line x1="70" y1="320" x2="330" y2="320"/>
-          <line x1="150" y1="140" x2="150" y2="410"/>
-          <line x1="250" y1="140" x2="250" y2="410"/>
-          <path d="M60 140 L200 50 L340 140" />
-        </g>
-        <g stroke="#8B8F98" stroke-width="0.8" opacity="0.7">
-          <line x1="70" y1="425" x2="330" y2="425"/>
-          <line x1="70" y1="418" x2="70" y2="432"/>
-          <line x1="330" y1="418" x2="330" y2="432"/>
-        </g>
-        <text x="200" y="444" fill="#8B8F98" font-family="IBM Plex Mono" font-size="11" text-anchor="middle">ÉLÉVATION — ÉCH. 1:100</text>
-      </svg>
-    </div>
-
-    <div class="about-content" data-reveal>
-      <p class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span>Qui sommes-nous</p>
-      <h2>Un bureau d&rsquo;ingénieurs, <span class="text-gold">un esprit de chantier</span></h2>
-      <p>EDG BTP &amp; SERVICES est une entreprise générale de bâtiment et travaux publics implantée à Godomey, Abomey-Calavi. Nous réunissons ingénieurs en génie civil, conducteurs de travaux et équipes qualifiées pour livrer des ouvrages conformes, sûrs et durables partout au Bénin.</p>
-      <ul class="credential-list">
-        <li><strong>Bureau d&rsquo;études intégré</strong> — plans, métrés et calculs de structure en interne.</li>
-        <li><strong>Conduite de travaux rigoureuse</strong> — suivi de chantier hebdomadaire et reporting client.</li>
-        <li><strong>Matériaux contrôlés</strong> — approvisionnement suivi et essais béton en laboratoire.</li>
-        <li><strong>Marchés publics &amp; privés</strong> — expérience confirmée sur appels d&rsquo;offres institutionnels.</li>
-      </ul>
-      <a href="#contact" class="btn btn-outline">Rencontrer l&rsquo;équipe</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============================= TRUST / SOCIAL PROOF ============================= -->
-<section class="trust" id="avis">
+<!-- ============================= FOOTER ============================= -->
   <div class="container">
     <div class="section-head">
       <p class="eyebrow" data-reveal><span class="eyebrow-dot"></span>Réputation locale vérifiée</p>
@@ -635,11 +408,11 @@
 
     <div class="footer-col">
       <h4>Navigation</h4>
-      <a href="#expertise">Expertise</a>
-      <a href="#realisations">Réalisations</a>
-      <a href="#apropos">À propos</a>
-      <a href="#avis">Avis clients</a>
-      <a href="#devis">Devis BTP</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projets</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Accueil</a>
     </div>
 
     <div class="footer-col">
@@ -699,7 +472,7 @@
         <h3 id="chatTitle">Assistant Virtuel EDG BTP</h3>
         <span class="chat-status"><span class="dot"></span> Bot opérationnel — répond en quelques secondes</span>
       </div>
-      <button class="chat-close" id="chatClose" aria-label="Réduire l'assistant">–</button>
+      <button type="button" class="chat-close" id="chatClose" aria-label="Réduire l'assistant">–</button>
     </div>
 
     <div class="chat-body" id="chatBody" aria-live="polite"></div>
